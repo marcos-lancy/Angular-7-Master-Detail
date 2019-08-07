@@ -1,3 +1,7 @@
+# Propósito
+
+Propósito da criação do projeto é desenvolver e praticar Master Detail com Angular.
+
 # Financas
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.7.
