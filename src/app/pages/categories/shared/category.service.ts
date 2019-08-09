@@ -45,7 +45,7 @@ export class CategoryService {
 
     return this.http.put(url, category).pipe(
       catchError(this.handleError),
-      map(() => category) //No caso do in-memory, não retorna nada quando faço o update. forço o retorno do objeto passado no parametro, nese caso
+      map(() => category) //No caso do in-memory, não retorna nada quando faço o update. forço o retorno do objeto passado no parâmetro, nese caso
       //map(this.jsonDataToCategory)
     )
   }
